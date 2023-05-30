@@ -19,28 +19,36 @@
 
         $v = 300;
         var_dump($v);
+        echo "<br>";
 
         $v = 45.2;
         var_dump($v);
+        echo "<br>";
 
         $v = true;
         var_dump($v);
+        echo "<br>";
 
         $v = "Gilmar";
         var_dump($v);
+        echo "<br>";
 
         $v = 3e2;
         var_dump($v);
+        echo "<br>";
 
         $v = (int)3e2;
         var_dump($v);
+        echo "<br>";
 
         $v = (int)"350";
         var_dump($v);
+        echo "<br>";
 
         $v = [2,4,5,6,8,7];
 
         var_dump($v);
+        echo "<br>";
     
     ?>
     
